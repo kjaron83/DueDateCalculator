@@ -34,7 +34,7 @@ public class BasicDueDateChecker implements DueDateChecker {
     }
 
     /**
-     * Returns true if hour is between 8 and 17.
+     * Returns true if time is between 9:00:00 and 16:59:59.
      */
     @Override
     public boolean isWorkingHour(Date date) {        
